@@ -60,18 +60,105 @@ td
 	white-space:normal;}
 .xl68
 	{mso-style-parent:style0;
-	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
-	vertical-align:middle;
-	white-space:normal;}
+	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";}
 .xl69
 	{mso-style-parent:style0;
-	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";}
+	mso-number-format:"\@";}
 .xl70
 	{mso-style-parent:style0;
-	mso-number-format:"\@";}
+	white-space:normal;}
 .xl71
 	{mso-style-parent:style0;
-	white-space:normal;}
+	color:black;
+	font-weight:700;
+	border:.5pt solid windowtext;}
 .xl72
 	{mso-style-parent:style0;
-	font-weight:700;}
+	border:.5pt solid windowtext;}
+.xl73
+	{mso-style-parent:style0;
+	font-weight:700;
+	border:.5pt solid windowtext;}
+.xl74
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	border:.5pt solid windowtext;
+	background:black;
+	mso-pattern:black none;}
+.xl75
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;}
+.xl76
+	{mso-style-parent:style0;
+	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:black;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	color:black;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style0;
+	color:black;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	background:black;
+	mso-pattern:black none;}
