@@ -47,15 +47,51 @@ td
 	mso-rotate:0;}
 .xl65
 	{mso-style-parent:style0;
-	color:black;
-	font-weight:700;}
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
 .xl66
 	{mso-style-parent:style0;
 	text-align:left;
-	vertical-align:top;}
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
 .xl67
 	{mso-style-parent:style0;
-	color:black;}
+	color:black;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	white-space:normal;}
 .xl68
 	{mso-style-parent:style0;
-	font-weight:700;}
+	color:red;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:black;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl69
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl70
+	{mso-style-parent:style0;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl71
+	{mso-style-parent:style0;
+	color:black;
+	font-weight:700;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
