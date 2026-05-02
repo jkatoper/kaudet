@@ -168,10 +168,14 @@ td
 	white-space:normal;}
 .xl88
 	{mso-style-parent:style0;
-	background:yellow;
-	mso-pattern:black none;}
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;
+	white-space:normal;}
 .xl89
 	{mso-style-parent:style0;
+	mso-number-format:"\@";
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	background:white;
@@ -179,8 +183,6 @@ td
 	white-space:normal;}
 .xl90
 	{mso-style-parent:style0;
-	mso-number-format:"\@";
-	vertical-align:middle;
 	border:.5pt solid windowtext;
 	background:white;
 	mso-pattern:black none;
@@ -189,14 +191,8 @@ td
 	{mso-style-parent:style0;
 	border:.5pt solid windowtext;
 	background:white;
-	mso-pattern:black none;
-	white-space:normal;}
-.xl92
-	{mso-style-parent:style0;
-	border:.5pt solid windowtext;
-	background:white;
 	mso-pattern:black none;}
-.xl93
+.xl92
 	{mso-style-parent:style0;
 	background:white;
 	mso-pattern:black none;}
