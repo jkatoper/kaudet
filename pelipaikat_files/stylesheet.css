@@ -145,8 +145,10 @@ td
 	{mso-style-parent:style0;
 	color:black;
 	border:.5pt solid windowtext;
-	background:yellow;
+	background:white;
 	mso-pattern:black none;}
 .xl85
 	{mso-style-parent:style0;
-	color:black;}
+	color:black;
+	background:yellow;
+	mso-pattern:black none;}
