@@ -69,48 +69,54 @@ td
 	white-space:normal;}
 .xl71
 	{mso-style-parent:style0;
-	color:black;
-	font-weight:700;
 	border:.5pt solid windowtext;}
 .xl72
-	{mso-style-parent:style0;
-	border:.5pt solid windowtext;}
-.xl73
-	{mso-style-parent:style0;
-	font-weight:700;
-	border:.5pt solid windowtext;}
-.xl74
 	{mso-style-parent:style0;
 	color:red;
 	font-weight:700;
 	border:.5pt solid windowtext;
 	background:black;
 	mso-pattern:black none;}
-.xl75
+.xl73
 	{mso-style-parent:style0;
 	border:.5pt solid windowtext;
 	background:yellow;
 	mso-pattern:black none;}
-.xl76
+.xl74
 	{mso-style-parent:style0;
 	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl77
+.xl75
 	{mso-style-parent:style0;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl78
+.xl76
 	{mso-style-parent:style0;
 	mso-number-format:"\@";
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	white-space:normal;}
-.xl79
+.xl77
 	{mso-style-parent:style0;
 	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl78
+	{mso-style-parent:style0;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	background:yellow;
@@ -118,14 +124,17 @@ td
 	white-space:normal;}
 .xl80
 	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
-	background:yellow;
+	background:black;
 	mso-pattern:black none;
 	white-space:normal;}
 .xl81
 	{mso-style-parent:style0;
-	mso-number-format:"\@";
+	color:black;
+	font-weight:700;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	background:yellow;
@@ -133,36 +142,18 @@ td
 	white-space:normal;}
 .xl82
 	{mso-style-parent:style0;
-	color:red;
+	color:black;
 	font-weight:700;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
-	background:black;
-	mso-pattern:black none;
 	white-space:normal;}
 .xl83
-	{mso-style-parent:style0;
-	color:black;
-	font-weight:700;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
-	background:yellow;
-	mso-pattern:black none;
-	white-space:normal;}
-.xl84
-	{mso-style-parent:style0;
-	color:black;
-	font-weight:700;
-	vertical-align:middle;
-	border:.5pt solid windowtext;
-	white-space:normal;}
-.xl85
 	{mso-style-parent:style0;
 	color:red;
 	font-weight:700;
 	background:black;
 	mso-pattern:black none;}
-.xl86
+.xl84
 	{mso-style-parent:style0;
 	mso-number-format:"d\0022\.\0022m\0022\.\0022yyyy";
 	vertical-align:middle;
@@ -170,10 +161,28 @@ td
 	background:white;
 	mso-pattern:black none;
 	white-space:normal;}
-.xl87
+.xl85
 	{mso-style-parent:style0;
 	vertical-align:middle;
 	border:.5pt solid windowtext;
 	background:white;
 	mso-pattern:black none;
 	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;}
+.xl87
+	{mso-style-parent:style0;
+	color:windowtext;
+	border:.5pt solid windowtext;
+	background:white;
+	mso-pattern:black none;}
+.xl88
+	{mso-style-parent:style0;
+	color:black;
+	font-weight:700;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;}
