@@ -1,0 +1,157 @@
+    <!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/torneopal.css">
+
+    <style>  
+.borderbox {
+    border-style:solid;
+    border-color: red;
+    border-width:1px;
+    background:white;
+    border-radius: 10px;
+    width: 95%;
+    padding:4px 2px;
+}
+.torneopal_widget .scheduletable{  
+    width: 100%;
+    height:100%;  
+    font-family:Ubuntu,Arial;
+    border:1px solid white;
+    border-radius: 10px;
+    padding:4px 4px;
+  }
+  .torneopal_widget .scheduletable th{
+    text-align:center;
+    background: black;
+    color:yellow;
+    padding:4px 4px;   
+  }
+
+  .torneopal_widget .scheduletable th.team,
+  .torneopal_widget .scheduletable td.team
+  {
+    text-align:left;
+  }
+  
+  .torneopal_widget .scheduletable td{
+    text-align:center;
+    background: yellow;
+    padding:4px 4px;
+    border:1px solid black;
+  }
+
+  .torneopal_widget .scheduletable .winner{font-weight:normal;}
+
+  .torneopal_widget .scheduletable tr:nth-child(even) td{
+    background:white;
+  }
+  .torneopal_widget #updated{
+    display:none;
+  }
+  .torneopal_widget h3 { display:none;}
+  .torneopal_widget .scheduletable > caption {height:0px;}
+  .groupby {display: none;}   
+  .groupname {display: none;} 
+  .classname  {display: none;}
+  .competitionname {display: none;}  #scoretable_PA_1>caption {
+  display: none;
+  }
+  .match {display: none;}
+
+        @media only screen and (max-width: 768px) {
+        table.torneopalwidget.scheduletable th,
+        table.torneopalwidget.scheduletable td {
+            font-size: 12px;
+        }
+        }
+         @media only screen and (max-width: 600px) {
+        table.torneopalwidget.scheduletable th,
+        table.torneopalwidget.scheduletable  td {
+            font-size: 10px;
+        }
+    #statstable{  
+        width: 95%;
+        height:100%;  
+        font-family:Ubuntu,Arial;
+        border:1px solid red;
+        border-radius: 10px;
+        padding:4px 4px;
+        background:white;
+    }  
+
+    #statstable th{
+        text-align:center;
+        background: black;
+        color:yellow;
+        padding:4px 4px;   
+    }
+
+    #statstable td{
+        text-align:center;
+        background: yellow;
+        padding:4px 4px;
+        border:1px solid black;
+    }
+
+    #statstable tr:nth-child(even) td,
+    #statstable tr:nth-child(even) td {
+        background: white;
+
+    </style>
+</head>
+
+<body>
+  <div class="col-sm-8"> 
+        <div class="row">
+                <div class="col">
+                        <img id="kuva1" src="./image/pallot.png" />
+                    </div>              
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">KAIKKI</a></li>   
+                <li><a href="all_years.htm">All</a></li>   
+                <li><a href="M2.htm">M2</a></li>                
+                <li><a href="A-pojat.htm">A-pojat</a></li>    
+                <li><a href="B-pojat.htm">B-pojat</a></li>                 
+                <li><a href="C-pojat.htm">C-pojat</a></li>                 
+                <li><a href="D-pojat.htm">D-pojat</a></li>                 
+                <li><a href="E-pojat.htm">E-pojat</a></li>    
+                <li><a href="beachvolley.htm">Beachvolley</a></li>    
+                <li><a href="powercup.htm">Powercup</a></li>    
+                <li><a href="pelipaikat.htm">Pelipaikat</a></li>   
+                <li><a href="joukkueet.htm">Joukkueet</a></li>   
+                <li><a href="U20_pojat.html">U20 pojat</a></li>   
+                <li><strong><a href="U17_pojat.html">U17 pojat</a></strong></li>  
+                <li><a href="U15_pojat.html">U15 pojat</a></li>                                    
+                <li><a href="https://palloilu.netlify.app/">Ottelut</a></li>                                    
+            </ul>
+            </nav>    
+    <div class="borderbox">
+        <h2>OTTLUT</h2>        
+        <script src="https://torneopal.lentopallo.fi/taso/widget.php?widget=team_schedule&amp;team=64231&amp;key=D766ZV6DDD"></script>
+
+        h2>TILASTOT</h2>
+        <statstable>
+              <script src="https://torneopal.lentopallo.fi/taso/widget.php?widget=stats&amp;competition=vb2026n&amp;class=PB&amp;team=64231&amp;orderby=pisteet&columns=pelaaja,ottelut,pisteet;count=10&amp;key=D766ZV6DDD"></script>                
+        </statstable>              
+    </div>
+
+        <script>
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
